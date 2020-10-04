@@ -1,0 +1,117 @@
+:root{
+    --bg-gray: #474747;
+    --search-green: #00C03A;
+    --light-text: #A8F3FF;
+    --search-bg: #CACACA;
+    --weather-yellow: #DDFF00;
+    --reddit-orange: #FF5700;
+    --youtube-red: #FF0000;
+    --facebook-blue: #4267B2;
+    --vue-green: #41B883;
+    --github-blue: #0366d6;
+    --netflix-red: #E50914;
+    --react-blue: #61DBFB;
+}
+* {
+    background-color: var(--bg-gray);
+}
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+.center {
+    margin: 0 auto;
+}
+
+.p-med {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.info-container {
+    padding: 8rem 23rem 5rem 25rem;
+}
+.weather-container {
+}
+.day-container {
+}
+.weather-text {
+    color: #FFF;
+    font-weight: 200;
+}
+.weather-icon {
+    color: var(--weather-yellow);
+}
+.temp-text {
+    font-weight: 300;
+}
+.date-text {
+    color: var(--light-text);
+    font-weight: 300;
+    font-size: 1.75rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.time-text {
+    color: var(--light-text);
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+.search-container {
+    background-color: var(--search-bg);
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border-radius: 30px;
+}
+.search-box {
+    border: none;
+    background-color: var(--search-bg);
+    padding-right: 28rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 2rem;
+}
+.search-icon {
+    color: var(--search-green);
+    font-size: 1.5rem;
+    background-color: var(--search-bg);
+    margin-right: 0.25rem;
+}
+.icon-container {
+    padding: 5rem 0 2rem 0;
+}
+.icon-link {
+    font-size: 3rem;
+    padding: 1rem;
+}
+.youtube {
+    color: var(--youtube-red);
+}
+.reddit {
+    color: var(--reddit-orange);
+}
+.facebook {
+    color: var(--facebook-blue);
+}
+.netflix {
+    color: var(--netflix-red);
+}
+.react {
+    color: var(--react-blue);
+}
+.vue {
+    color: var(--vue-green);
+}
+.github {
+    color: var(--github-blue);
+}
+.quote-container {
+    padding: 3rem 3rem 2rem 3rem;
+}
+.quote-text {
+    color: var(--light-text);
+    font-weight: 200;
+    font-size: 0.75rem;
+}
+.author-text {
+    color: var(--light-text);
+    font-weight: 300;
+    font-size: 0.75rem;
+}
